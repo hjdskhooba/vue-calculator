@@ -10,7 +10,7 @@
           >{{ operator }}</calc-button
         >
       </div>
-      <h1 class="result">{{ title }}</h1>
+      <h1 :class="$style.result">{{ title }}</h1>
       <div :class="$style.leftPanel">
         <div :class="$style.numbers">
           <calc-button :btn="btn" @update:btn="typing" v-for="num in [1, 2, 3]">
@@ -51,8 +51,7 @@ const typing = (e) => {
     value.value += e;
   } else if (/^[0-9]+$/.test(value.value) && value.value.length > 0) {
     value.value += e;
-  }
-  // calculate();
+  };
 };
 
 const calculate = () => {

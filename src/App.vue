@@ -7,6 +7,7 @@ import Calculator from "./components/Calculator.vue";
 </script>
 <style module lang="scss">
 @import "./scss/app.module.scss";
+// Потрачу 10 минут на классы.
 .logo {
   @apply mx-auto;
 }

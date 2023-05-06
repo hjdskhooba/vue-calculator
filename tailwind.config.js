@@ -5,6 +5,13 @@ module.exports = {
     extend: {
       "weather-primary": "#00668A",
       "weather-secondary": "#004E71",
+      boxShadow: {
+        "webkit": "0px 1px 4px 0px rgba(0, 0, 0, 0.2)",
+        "mine": "0px 1px 4px 0px rgba(0, 0, 0, 0.2)",
+      },
+      backgroundColor: {
+        'blue': "#307cf9",
+      }
     },
   },
   fontFamily: {
